@@ -52,7 +52,7 @@ function Header({placeholder}) {
             
             {/* Left */}
             <div onClick={() => router.push("/")} className='relative flex items-center h-10 cursor-pointer my-auto space-x-12'>
-                <Image src='https://cdn-icons.flaticon.com/png/512/826/premium/826070.png?token=exp=1638788699~hmac=146eb5f4952f7ee2de047f06a7d085a8' layout='fill' objectFit='contain' objectPosition='left'/>
+                <Image src='/../public/travel.png' layout='fill' objectFit='contain' objectPosition='left' />
                 <h2 className='font-mono font-bold'>TrAvel</h2>
             </div>
 
